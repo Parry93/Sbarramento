@@ -21,20 +21,21 @@
     border: 1px solid;
     gap: 15px;
     background-color: chocolate;
+    
 }
 .testo_container{
     display: flex;
-   
+   justify-content: center;
     align-items: center;
     
 }
 .container{
     display: flex;
-    justify-content: space-evenly;
+    gap: 80px;
+
+    
 }
-.pulsante{
-    float: right;
-}
+
 @media screen and (max-width: 375px) {
     .aside{
        display: none;
@@ -42,6 +43,10 @@
     
     .dh{
         display: none;
+    }
+    .container{
+
+
     }
     
 }
