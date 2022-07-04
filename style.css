@@ -1,0 +1,47 @@
+.aside{
+    width: 200px;
+    height: 1000px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.mini{
+    width: 100px;
+    height: 40px;
+    background-color: brown;
+}
+.testo{
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    gap: 15px;
+    background-color: chocolate;
+}
+.testo_container{
+    display: flex;
+   
+    align-items: center;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pulsante{
+    float: right;
+}
+@media screen and (max-width: 375px) {
+    .aside{
+       display: none;
+    }
+    
+    .dh{
+        display: none;
+    }
+    
+}
